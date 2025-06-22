@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "stylelint.validate": ["css", "scss"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "blueprint.templatesPath": ["./.vscode/templates"],
+  "files.exclude": {
+    "**/templates": true,
+    "**/index.ts": true,
+    "**/*.d.ts": true
+  }
+}
